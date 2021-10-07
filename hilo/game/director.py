@@ -19,8 +19,10 @@ class director:
     #Heidi Wiseman
 
     def get_updates(self):
-        pass
-        #Daniel Emerson
+        
+        points = self.dealer.get_points()
+        self.score += points
+
     def do_outputs(self):
         pass
     #Ben Cornia
