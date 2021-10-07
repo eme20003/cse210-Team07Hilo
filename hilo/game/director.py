@@ -16,10 +16,12 @@ class director:
     
     def get_inputs(self):
         pass
+    #Heidi Wiseman
 
     def get_updates(self):
         pass
-
+        #Daniel Emerson
     def do_outputs(self):
         pass
+    #Ben Cornia
 

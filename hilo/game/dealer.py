@@ -5,7 +5,6 @@ import random
         #Define deal cards, get points, can deal, init 
 
 class dealer:
-    pass
 
     def __init__(self):
         self.current_card = 0
@@ -17,6 +16,8 @@ class dealer:
 
     def get_points(self):
         pass
+    #Mitchel Ball
     
     def can_deal(self):
         pass
+    #Morgan Allen
