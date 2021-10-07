@@ -17,6 +17,8 @@ class dealer:
 
     def get_points(self):
         pass
+    #Mitchel Ball
     
     def can_deal(self):
         pass
+    #Morgan Allen
