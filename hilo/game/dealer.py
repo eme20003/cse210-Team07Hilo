@@ -8,11 +8,12 @@ class dealer:
     pass
 
     def __init__(self):
-        self.current_card = random.randint(1,13)
-        self.next_card = random.randint(1,13)
+        self.current_card = 0
+        self.next_card = 0
     
     def deal_cards(self):
-        pass
+        self.current_card = random.randint(1,13)
+        self.next_card = random.randint(1,13)
 
     def get_points(self):
         pass
