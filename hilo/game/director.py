@@ -1,2 +1,3 @@
-class director():
+from game.dealer import dealer
+class director:
     pass
