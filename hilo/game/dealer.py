@@ -20,5 +20,7 @@ class dealer:
     #Mitchel Ball
     
     def can_deal(self):
-        pass
+        return (self.director.points == 0 
+        or self.director.play_again == 'n' 
+        or self.director.play_again == 'N')
     #Morgan Allen
