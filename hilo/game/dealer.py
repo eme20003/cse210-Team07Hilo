@@ -5,6 +5,7 @@ import random
         #Define deal cards, get points, can deal, init 
 
 class dealer:
+    pass
 
     def __init__(self):
         self.current_card = 0
@@ -19,5 +20,10 @@ class dealer:
     #Mitchel Ball
     
     def can_deal(self):
-        pass
+        # Checks to see if the player has lost the game
+        # and if they whish to continue
+        # Is to be used in an IF statement
+        return (self.director.points == 0 
+        or self.director.play_again == 'n' 
+        or self.director.play_again == 'N')
     #Morgan Allen
