@@ -18,6 +18,7 @@ class director:
     def get_inputs(self):
         self.dealer.deal_cards()
 
+
     def get_updates(self):
 
         points = self.dealer.get_points()
