@@ -23,7 +23,5 @@ class dealer:
         # Checks to see if the player has lost the game
         # and if they whish to continue
         # Is to be used in an IF statement
-        return (self.director.points == 0 
-        or self.director.play_again == 'n' 
-        or self.director.play_again == 'N')
+        return (self.director.points != 0 )
     #Morgan Allen
