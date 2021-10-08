@@ -16,6 +16,12 @@ class director:
             self.do_outputs()
 
     def get_inputs(self):
+        #Gets the inputs at the beginning of each round of play. In this case,
+        #that means dealing the cards.
+
+        #Args:
+            #self (Dealer): An instance of Dealer.
+            
         self.dealer.deal_cards()
 
     def get_updates(self):
