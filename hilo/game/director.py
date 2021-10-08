@@ -16,9 +16,7 @@ class director:
             self.do_outputs()
 
     def get_inputs(self):
-        pass
-
-    # Heidi Wiseman
+        self.dealer.deal_cards()
 
     def get_updates(self):
 
