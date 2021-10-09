@@ -36,3 +36,6 @@ root                    (project root folder)
 ## Authors
 ---
 * TODO: Add your names and emails here
+
+Author: Mitchell Ball
+        bal2049@byui.edu
