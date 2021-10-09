@@ -20,7 +20,10 @@ class director:
 
 
     def get_updates(self):
-
+        #Author: Daniel Emerson
+        #Calling the get_points method from the dealer class
+        #From the returned value this saves the points and adds any future points that may occur
+        #to have a grand total score
         points = self.dealer.get_points()
         self.score += points
 
