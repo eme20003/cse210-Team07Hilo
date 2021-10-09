@@ -1,4 +1,4 @@
-from game.dealer import dealer
+from dealer import dealer
 
 
 class director:
@@ -18,14 +18,13 @@ class director:
     def get_inputs(self):
         self.dealer.deal_cards()
 
-
     def get_updates(self):
-        #Author: Daniel Emerson
-        #Calling the get_points method from the dealer class
-        #From the returned value this saves the points and adds any future points that may occur
-        #to have a grand total score
+        # Author: Daniel Emerson
+        # Calling the get_points method from the dealer class
+        # From the returned value this saves the points and adds any future points that may occur
+        # to have a grand total score
         points = self.dealer.get_points()
-        self.score += points
+        self.points += points
 
     def do_outputs(self):
         """
@@ -34,7 +33,7 @@ class director:
         If they would like to continue playing.
         If they don't have points set game_on to False.
         """
-        print(f"Your score is: {self.score}")
+        print(f"Your score is: {self.points}")
 
         # Return value of can_deal method.
         deal = self.dealer.can_deal()
