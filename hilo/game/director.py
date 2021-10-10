@@ -1,13 +1,13 @@
-from dealer import dealer
+from game import dealer
 
 
-class director:
+class Director:
     def __init__(self):
         # The class constructor
         # Define Game Start, and points
         self.game_on = True
         self.points = 300
-        self.dealer = dealer()
+        self.dealer = dealer.Dealer()
 
     def game_start(self):
         while self.game_on:

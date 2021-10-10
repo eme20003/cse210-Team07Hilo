@@ -4,8 +4,8 @@
 # creating a variable that relates to the director class
 # initializing the game from the game_start method
 
-from director import director
+from game import director
 
-director = director()
+director = director.Director()
 
 director.game_start()

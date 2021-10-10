@@ -4,9 +4,7 @@ import random
 # Define deal cards, get points, can deal, init
 
 
-class dealer:
-    pass
-
+class Dealer:
     def __init__(self):
         self.current_cards = []
         self.score = 0
