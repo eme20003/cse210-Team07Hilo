@@ -6,7 +6,7 @@ class Director:
         # The class constructor
         # Define Game Start, and points
         self.game_on = True
-        self.points = 300
+        self.points = 0
         self.dealer = dealer.Dealer()
 
     def game_start(self):
@@ -29,8 +29,9 @@ class Director:
         # Calling the get_points method from the dealer class
         # From the returned value this saves the points and adds any future points that may occur
         # to have a grand total score
-        points = self.dealer.get_points()
-        self.points += points
+        self.points = self.dealer.get_points()
+        
+
 
     def do_outputs(self):
         """
@@ -47,9 +48,11 @@ class Director:
         # Check if deal is True or False.
         if deal == True:
             choice = input("Keep playing [y/n] ")
+            print('')
             if choice == "y":
                 self.game_on = True
             else:
                 self.game_on = False
         else:
             self.game_on = False
+            print('You Lose')
